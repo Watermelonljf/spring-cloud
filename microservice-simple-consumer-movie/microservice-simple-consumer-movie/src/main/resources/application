@@ -1,0 +1,21 @@
+#配置启动端口
+server:
+  port: 7900
+#配置JPA
+spring:
+  jpa:
+    generate-ddl: false
+    show-sql: true
+    hibernate:
+      ddl-auto: none #启动的时候不做DDL处理
+  datasource:
+    platform: h2
+    schema: classpath:schema.sql
+logging:
+  level:
+    root: INFO
+    org.hibernate: INFO
+    org.hibernate.type.
+
+
+
