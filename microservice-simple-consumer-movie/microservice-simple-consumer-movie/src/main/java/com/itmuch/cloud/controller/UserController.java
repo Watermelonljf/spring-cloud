@@ -1,4 +1,4 @@
-package com.itmuch.cloud;
+package com.itmuch.cloud.controller;
 
 import com.itmuch.cloud.dao.UserRepository;
 import com.itmuch.cloud.entity.User;
