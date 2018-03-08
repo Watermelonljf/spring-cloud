@@ -7,19 +7,16 @@ import java.math.BigDecimal;
 /**
  * Created by ljianf on 2017/9/30.
  */
-@Entity
 public class User implements Serializable {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-    @Column
+
     private String username;
-    @Column
+
     private String name;
-    @Column
+
     private Short age;
-    @Column
+
     private BigDecimal balance;
 
     public Long getId() {
