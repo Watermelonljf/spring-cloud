@@ -1,0 +1,8 @@
+server:
+  port: 8011
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+    serviceUrl:
+      defaultZone: http://localhost:8011/eureka/

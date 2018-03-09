@@ -1,0 +1,4 @@
+com\itmuch\cloud\dao\UserRepository.class
+com\itmuch\cloud\entity\User.class
+com\itmuch\cloud\MicroserviceSimpleProviderUsreApplication.class
+com\itmuch\cloud\controller\UserController.class
